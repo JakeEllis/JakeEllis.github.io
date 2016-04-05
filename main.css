@@ -1,12 +1,12 @@
 
 
-#main-content
+.main-content
 {
     border-color: black;
     border-style: dotted;
 }
 
-#header
+.header
 {
     border-color: black;
     border-style: double;
@@ -14,7 +14,7 @@
     width: 100%;
 }   
 
-#left-sidebar
+.left-sidebar
 {
     border-color: black;
     border-style: double;
@@ -22,7 +22,7 @@
     width: 10%;
 }   
 
-#right-sidebar
+.right-sidebar
 {
     border-color: black;
     border-style: double;
