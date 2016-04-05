@@ -4,6 +4,8 @@
 {
     border-color: black;
     border-style: dotted;
+    height: 100%;
+    width: 100%;
 }
 
 .header
