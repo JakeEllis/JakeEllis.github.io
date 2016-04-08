@@ -27,6 +27,8 @@ body
     list-style-type: none;
     padding-left: 5%;
     margin: 0;
+    padding-top:1%;
+    padding-bottom:2%;
 }
 
 .li-header
