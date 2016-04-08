@@ -17,6 +17,23 @@
     width: 100%;
 }   
 
+ul.header
+{
+    list-style-type: none;
+    margin: 0;
+    /*display: block;*/
+    padding-left: 5%;
+    /*overflow: hidden;*/
+}
+
+li.header
+{
+    float: left;
+    Padding-right: 5%;
+}
+
+a:hover {}
+
 .left-sidebar
 {
     border-color: black;
