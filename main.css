@@ -1,4 +1,4 @@
-.body
+body
 {
     background-color: whitesmoke;
 }
@@ -26,6 +26,7 @@
 {
     list-style-type: none;
     padding-left: 5%;
+    margin: 0;
 }
 
 .li-header
