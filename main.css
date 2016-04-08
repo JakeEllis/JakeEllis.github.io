@@ -1,4 +1,7 @@
-
+.body
+{
+    background-color: whitesmoke;
+}
 
 .main-content
 {
@@ -7,6 +10,7 @@
     height: 100%;
     width: 79%;
     margin-left:10%;
+    background-color: white;
 }
 
 .header
@@ -15,6 +19,7 @@
     border-style: double;
     height: 30%;
     width: 100%;
+    background-color: #333;
 }   
 
 .ul-header
@@ -29,7 +34,19 @@
     Padding-right: 5%;
 }
 
-a:hover {}
+.li-header a 
+{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li-header a:hover 
+{
+    background-color: gray;
+}
 
 .left-sidebar
 {
