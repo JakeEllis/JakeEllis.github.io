@@ -5,15 +5,51 @@
 
 <head>
 
+    <script>
+    function loadResume() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          document.getElementById("ajax").innerHTML = xhttp.responseText;
+        }
+      };
+      xhttp.open("GET", "resume.txt", true);
+      xhttp.send();
+    }
+    
+      function loadHome() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          document.getElementById("ajax").innerHTML = xhttp.responseText;
+        }
+      };
+      xhttp.open("GET", "index.txt", true);
+      xhttp.send();
+    }
+    
+      function loadAbout() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          document.getElementById("ajax").innerHTML = xhttp.responseText;
+        }
+      };
+      xhttp.open("GET", "about.txt", true);
+      xhttp.send();
+    }
+    </script>
+
 </head>  
 
 <body>
   
   <div class="header">
     <ul class="ul-header">
-      <li class="li-header"><a href="/index.html">Home</a></li> 
-      <li class="li-header"><a href="/resume.html">Resume<a/></li>
-      <li class="li-header"><a href="/about.html">About</a></li>
+      
+      <li class="li-header"><a href="#" onclick="loadHome()">Home</a></li> 
+      <li class="li-header"><a href="#" onclick="loadResume()">Resume</a></li>
+      <li class="li-header"><a href="#" onclick="loadAbout()">About</a></li>
     </ul>
   </div>
 
@@ -25,7 +61,8 @@
     <p>Right Sidebar</p>
   </div>
   
-  <div class="main-content">
+  <div id="ajax" class="main-content">
+
     <p>
     Bacon ipsum dolor amet sirloin ball tip bresaola alcatra. Fatback turducken hamburger, ham hock pork belly capicola leberkas pancetta. Pancetta chicken kielbasa, meatball venison rump filet mignon pork belly andouille bresaola. Rump prosciutto shank corned beef meatloaf biltong pancetta leberkas beef ribs capicola. Shank fatback brisket, kevin salami pastrami capicola prosciutto turducken.
 
