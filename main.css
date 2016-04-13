@@ -8,8 +8,8 @@ body
     border-color: black;
     border-style: dotted;
     height: 100%;
-    width: 79%;
-    margin-left:10%;
+    width: 100%;
+    /*margin-left:10%;*/
     background-color: white;
     box-shadow: 10px 10px 5px #888888;
 }
@@ -60,6 +60,7 @@ body
     float:left;
     overflow-wrap: break-word;
     text-align:center;
+    background-color: whitesmoke;
 }   
 
 .right-sidebar
@@ -71,4 +72,5 @@ body
     float:right;
     overflow-wrap: break-word;
     text-align:center;
+    background-color: whitesmoke;
 }   
