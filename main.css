@@ -17,9 +17,9 @@ body
 
 .header
 {
-    height: 30px;
+    height: 40px;
     width: 99%;
-    background-color: #333;
+    /*background-color: #333;*/
     position: absolute;
     /*position: fixed;*/
     top:0px;
@@ -36,7 +36,7 @@ body
 
 .li-header
 {
-    float: left;
+    float: right;
     Padding-right: 5%;
 }
 
