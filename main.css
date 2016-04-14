@@ -9,8 +9,9 @@ body
     height: 100%;
     width: 70%;
     margin-left:15%;
-    background-color: rgba(192,192,192,0.7);
+    /*background-color: rgba(192,192,192,0.7);*/
     /*box-shadow: 10px 10px 5px #888888;*/
+    background-image: ("/img/paper6.jpg");
     position:relative;
     top:40px;
 }
@@ -21,17 +22,31 @@ body
     width: 99%;
     /*background-color: #333;*/
     position: absolute;
-    /*position: fixed;*/
     top:0px;
 }   
 
 .ul-header
 {
     list-style-type: none;
-    padding-left: 5%;
+    padding-right: 40%;
     margin: 0;
     padding-top:1%;
     padding-bottom:2%;
+}
+
+.li-jake
+{
+    float: left;
+    Padding-left: 5%;
+    font-family: cursive;
+}
+
+.li-jake a 
+{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .li-header
