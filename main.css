@@ -1,3 +1,7 @@
+html {
+    height:100%;
+} 
+
 body
 {
     /*background-color: whitesmoke;*/
@@ -11,7 +15,8 @@ body
     margin-left:15%;
     /*background-color: rgba(192,192,192,0.7);*/
     /*box-shadow: 10px 10px 5px #888888;*/
-    background-image: url("/img/paper6.jpg");
+    background-image: url("/img/clipboard.jpg");
+    background-size: cover;
     position:relative;
     top:40px;
 }
