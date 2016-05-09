@@ -10,8 +10,10 @@ body
 
 .main-content
 {
-    height: 100%;
-    width: 70%;
+    /*height: 100%;*/
+    /*width: 70%;*/
+    height: 1200px;
+    width: 900px;
     margin-left:15%;
     background-image: url("/img/clipboard.jpg");
     background-size: cover;
