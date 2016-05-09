@@ -5,7 +5,7 @@
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
-          document.getElementById("resume2").innerHTML = xhttp.responseText;
+          document.getElementById("ajax").innerHTML = xhttp.responseText;
         }
       };
       xhttp.open("GET", "resume2.html", true);
