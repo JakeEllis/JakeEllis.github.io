@@ -116,7 +116,7 @@ a.selected
     src: url(/fonts/theunseen.ttf);
 }
 
-jacob-ellis
+.jacob-ellis
 {
     float: left;
     Padding-left: 5%;
@@ -124,8 +124,15 @@ jacob-ellis
     transform: rotate(270deg);
     font-size:80px;
     height:10%;
+    text-decoration:none;
+    color:black;
+    margin-top:80px;
 }
 
+.jacob-ellis:hover
+{
+    color:white;
+}
 
 
 
