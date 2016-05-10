@@ -101,3 +101,23 @@ body
     text-align:center;
     background-color: whitesmoke;
 }   
+
+a:hover
+{
+    color:black;
+}
+
+a:active
+{
+    background-color:gray;
+}
+
+
+
+
+
+
+
+
+
+
