@@ -104,17 +104,17 @@ body
 
 a:hover
 {
-    color:pink;
+    color:black;
 }
 
 a:active
 {
-    background-color:gray;
+    /*background-color:gray;*/
 }
 
 a:visited
 {
-    background-color:gray;
+    /*background-color:gray;*/
 }
 
 
