@@ -77,11 +77,6 @@ body
     text-decoration: none;
 }
 
-.li-header a:hover 
-{
-    background-color: gray;
-}
-
 .left-sidebar
 {
     height: 10%;
@@ -102,12 +97,20 @@ body
     background-color: whitesmoke;
 }   
 
-/*a:hover*/
-/*{*/
-/*    color:black;*/
-/*}*/
+a:hover
+{
+    color:black;
+}
 
+a:active
+{
+    background-color: gray;
+}
 
+a.selected
+{
+    background-color: pink;
+}
 
 
 
