@@ -12,7 +12,7 @@ body
 {
     height: 800px;
     width: 600px;
-    margin-left:15%;
+    margin-left:25%;
     background-image: url("/img/clipboard.jpg");
     background-size: contain;
     position:relative;
