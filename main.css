@@ -91,10 +91,8 @@ body
 .right-sidebar
 {
     height: 100%;
-    width: 10%;
+    width: 20%;
     float:right;
-    overflow-wrap: break-word;
-    text-align:center;
 }   
 
 a:hover
