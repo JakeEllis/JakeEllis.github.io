@@ -79,12 +79,12 @@ body
 
 .left-sidebar
 {
-    height: 10%;
+    height: 250%;
     width: 10%;
     float:left;
     overflow-wrap: break-word;
     text-align:center;
-    background-color: whitesmoke;
+
 }   
 
 .right-sidebar
@@ -94,7 +94,6 @@ body
     float:right;
     overflow-wrap: break-word;
     text-align:center;
-    background-color: whitesmoke;
 }   
 
 a:hover
@@ -117,7 +116,13 @@ a.selected
     src: url(/fonts/theunseen.ttf);
 }
 
-
+.jacob-ellis
+{
+    float: left;
+    Padding-left: 5%;
+    font-family: unseen;
+    transform: rotate(270deg);
+}
 
 
 
