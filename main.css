@@ -9,15 +9,15 @@ html {
 body
 {
     /*background-color: whitesmoke;*/
-    background: url("/img/wood-background.jpg");
+    background: url("/img/wood-background4.jpg");
 }
 
 .main-content
 {
-    height: 798px;
-    width: 598px;
+    height: 724px;
+    width: 600px;
     margin-left:25%;
-    background-image: url("/img/clipboard.jpg");
+    background-image: url("/img/clipboard2.jpg");
     background-size: contain;
     position:relative;
     top:40px;
