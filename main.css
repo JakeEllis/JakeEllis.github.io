@@ -120,7 +120,7 @@ a.selected
 
 .postit
 {
-    font-size:20px;
+    font-size:19px;
     position: absolute;
     z-index:1;
     transform:rotate(14deg);
@@ -129,12 +129,11 @@ a.selected
  
 .ul-postit
 {
-    padding-right: 40%;
+    /*padding-right: 30%;*/
 }
 
 .li-postit
 {
-    float: right;
     font-family:unseen;
     padding-bottom:20px;
 }
