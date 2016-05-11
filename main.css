@@ -120,7 +120,7 @@ a.selected
 
 .postit
 {
-    font-size:19px;
+    font-size:17px;
     position: absolute;
     z-index:1;
     transform:rotate(14deg);
