@@ -124,27 +124,24 @@ a.selected
     position: absolute;
     z-index:1;
     transform:rotate(14deg);
+    padding-top:60px;
 }   
  
 .ul-postit
 {
     list-style-type: none;
     padding-right: 40%;
-    margin: 0;
-    padding-top:1%;
-    padding-bottom:2%;
 }
 
 .li-postit
 {
     float: right;
-    Padding-right: 5%;
     font-family:unseen;
 }
 
 .li-postit a 
 {
-    color: white;
+    color: black;
     display: block;
     text-align: center;
     text-decoration: none;
