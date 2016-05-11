@@ -31,38 +31,6 @@ body
     overflow: scroll;
 }
 
-.header
-{
-    height: 40px;
-    width: 99%;
-    /*background-color: #333;*/
-    position: absolute;
-    top:0px;
-}   
- 
-.ul-header
-{
-    list-style-type: none;
-    padding-right: 40%;
-    margin: 0;
-    padding-top:1%;
-    padding-bottom:2%;
-}
-
-.li-header
-{
-    float: right;
-    Padding-right: 5%;
-}
-
-.li-header a 
-{
-    color: white;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-
 .left-sidebar
 {
     height: 250%;
@@ -125,12 +93,8 @@ a.selected
     z-index:1;
     transform:rotate(14deg);
     padding-top:25px;
+    width:200px;
 }   
- 
-.ul-postit
-{
-    /*padding-right: 30%;*/
-}
 
 .li-postit
 {
