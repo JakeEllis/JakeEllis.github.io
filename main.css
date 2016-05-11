@@ -49,21 +49,6 @@ body
     padding-bottom:2%;
 }
 
-.li-jake
-{
-    float: left;
-    Padding-left: 5%;
-    font-family: cursive;
-}
-
-.li-jake a 
-{
-    color: white;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-
 .li-header
 {
     float: right;
@@ -133,5 +118,35 @@ a.selected
     color:white;
 }
 
+/*.postit*/
+/*{*/
+/*    height: 40px;*/
+/*    width: 99%;*/
+    /*background-color: #333;*/
+/*    position: absolute;*/
+/*    top:0px;*/
+/*}   */
+ 
+.ul-postit
+{
+    list-style-type: none;
+    padding-right: 40%;
+    margin: 0;
+    padding-top:1%;
+    padding-bottom:2%;
+}
 
+.li-postit
+{
+    float: right;
+    Padding-right: 5%;
+}
+
+.li-postit a 
+{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
 
