@@ -28,7 +28,7 @@ body
     position:relative;
     top:95px;
     font-size:14px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .left-sidebar
