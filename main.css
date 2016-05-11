@@ -124,12 +124,11 @@ a.selected
     position: absolute;
     z-index:1;
     transform:rotate(14deg);
-    padding-top:60px;
+    padding-top:25px;
 }   
  
 .ul-postit
 {
-    list-style-type: none;
     padding-right: 40%;
 }
 
@@ -137,6 +136,7 @@ a.selected
 {
     float: right;
     font-family:unseen;
+    padding-bottom:20px;
 }
 
 .li-postit a 
