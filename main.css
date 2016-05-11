@@ -118,14 +118,13 @@ a.selected
     color:white;
 }
 
-/*.postit*/
-/*{*/
-/*    height: 40px;*/
-/*    width: 99%;*/
-    /*background-color: #333;*/
-/*    position: absolute;*/
-/*    top:0px;*/
-/*}   */
+.postit
+{
+    font-size:20px;
+    position: absolute;
+    z-index:1;
+    transform:rotate(14deg);
+}   
  
 .ul-postit
 {
@@ -140,6 +139,7 @@ a.selected
 {
     float: right;
     Padding-right: 5%;
+    font-family:unseen;
 }
 
 .li-postit a 
