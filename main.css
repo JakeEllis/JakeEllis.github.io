@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'unseen';
+    src: url(/fonts/theunseen.ttf);
+  src: url(/fonts/theunseen.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url(/fonts/theunseen.woff2') format('woff2'), /* Super Modern Browsers */
+       url(/fonts/theunseen.woff') format('woff'), /* Pretty Modern Browsers */
+       url(/fonts/theunseen.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url(/fonts/theunseen.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*@font-face {*/
+/*    font-family: unseen;*/
+/*    src: url(/fonts/theunseen.ttf);*/
+/*}*/
+
 /*html,body {*/
 /*    height:100%;*/
 /*} */
@@ -61,11 +76,6 @@ a:active
 a.selected
 {
     background-color: pink;
-}
-
-@font-face {
-    font-family: unseen;
-    src: url(/fonts/theunseen.ttf);
 }
 
 .jacob-ellis
