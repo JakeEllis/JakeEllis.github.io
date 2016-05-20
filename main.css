@@ -97,9 +97,13 @@ a.selected
     font-size:21px;
     position: absolute;
     z-index:1;
-    transform:rotate(14deg);
     padding-top:25px;
     width:200px;
+    -webkit-transform: rotate(14deg);
+    -o-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
+    
 }   
 
 .li-postit
