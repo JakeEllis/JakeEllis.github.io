@@ -1,7 +1,6 @@
 @font-face {
     font-family: unseen;
-    src: url(/fonts/theunseen.ttf),
-       url(/fonts/theunseen.ttf')  format('truetype'), /* Safari, Android, iOS */
+    src: url(/fonts/theunseen.ttf);
 }
 
 /*@font-face {*/
