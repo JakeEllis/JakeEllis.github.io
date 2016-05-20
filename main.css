@@ -2,7 +2,6 @@
     font-family: unseen;
     src: url(/fonts/theunseen.ttf),
        url(/fonts/theunseen.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url(/fonts/theunseen.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 /*@font-face {*/
