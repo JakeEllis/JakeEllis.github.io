@@ -81,15 +81,10 @@ a.selected
     -o-transform: rotate(328deg);
     -moz-transform: rotate(328deg);
     -ms-transform: rotate(328deg);
-    
-    
     -webkit-font-family: unseen;
-    -webkit-font-family: unseen;
-    -webkit-font-family: unseen;
-        
-        transform:rotate(10deg);
-   -moz-transform:rotate(10deg);
-   -o-transform:rotate(10deg);
+    -moz-font-family: unseen;
+    -o-font-family: unseen;
+    -ms-font-family: unseen;
 }
 
 .jacob-ellis:hover
