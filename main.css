@@ -55,17 +55,12 @@ body
 
 a:hover
 {
-    color:black;
+    color:white;
 }
 
 a:active
 {
     /*background-color: gray;*/
-}
-
-a.selected
-{
-    background-color: pink;
 }
 
 .jacob-ellis
