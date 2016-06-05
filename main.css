@@ -3,11 +3,6 @@
     src: url(/fonts/theunseen.ttf);
 }
 
-/*@font-face {*/
-/*    font-family: unseen;*/
-/*    src: url(/fonts/theunseen.ttf);*/
-/*}*/
-
 /*html,body {*/
 /*    height:100%;*/
 /*} */
@@ -65,7 +60,7 @@ a:hover
 
 a:active
 {
-    background-color: gray;
+    /*background-color: gray;*/
 }
 
 a.selected
@@ -82,7 +77,7 @@ a.selected
     text-decoration:none;
     color:black;
     margin-top:80px;
-    box-shadow: 0px 0px 0px 2px #080808;
+    /*box-shadow: 0px 0px 0px 2px #080808;*/
     -webkit-transform: rotate(328deg);
     -o-transform: rotate(328deg);
     -moz-transform: rotate(328deg);
