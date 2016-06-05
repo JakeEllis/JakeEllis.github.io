@@ -116,7 +116,7 @@ a:active
     text-decoration: none;
 }
 
-.li-postit:hover
+.li-postit a:hover
 {
     color:white;
 }
