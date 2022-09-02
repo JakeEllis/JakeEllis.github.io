@@ -1,3 +1,4 @@
 # JakeEllis.github.io
 
-Jacob (Jake) Ellis' personal website that is used as an online resume.
+Jake Ellis gifted this repository Connor Chlebowy to learn how to write
+
