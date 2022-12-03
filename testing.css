@@ -1,7 +1,9 @@
 h2 {color: red}
 
-p {}
+p {text: blue}
 
-nav {text: orange }
+div {
+  text: orange
+background: yelloe }
 
 
