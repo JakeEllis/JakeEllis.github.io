@@ -2,9 +2,9 @@ h2 {color: red
 background: onyx
 margin: 40}
 
-p {color: green
-background: orange 
-font:22
+p {color: green;
+background-color: orange; 
+font-size:22 pt;
 }
 
 nav {
