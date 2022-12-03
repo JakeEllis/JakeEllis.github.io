@@ -1,6 +1,9 @@
 h2 {color: red}
 
-p {color: green}
+p {color: green
+background: orange 
+font:22
+}
 
 nav {
   text:orange
