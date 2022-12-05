@@ -6,15 +6,16 @@ margin: 40}
 p {color: green;
 background-color: orange; 
 font-size:22 pt;
+margin: 2px,2px,2px,2px;
   margin: like a clock ;
 }
 
 
 h2 { text: red
+  text-align:center
+  
 }
 
-nav {
-  text:orange
-background:yellow }
+
 
 
