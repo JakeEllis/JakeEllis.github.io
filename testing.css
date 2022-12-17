@@ -1,4 +1,4 @@
-<b> {color: red
+b {color: red
 background: black
 allign: center;
 margin: 40
@@ -8,6 +8,9 @@ b {color: red
 background: black
 allign: center;
 margin: 40
+}
+
+{nav: right
 }
 
 
