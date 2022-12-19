@@ -1,9 +1,9 @@
 div { 
 background: purple;
 font: Gill Sans;
-align: right;
+text-align: right;
 backgroundground-color: purple;
-text: white;
+color: white;
   padding: 10px 10px 10px 10px;
 }
   
