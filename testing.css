@@ -5,7 +5,8 @@ text-align: right;
 backgroundground-color: purple;
 color: white;
   padding: 10px 10px 10px 10px;
-  padding-right: 3px ;
+  padding-right: 3px;
+  word-spacing: 4cm;
 }
   
 a {color:white;
