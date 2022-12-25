@@ -35,6 +35,11 @@ capitons: uppercase ;
   margin: like a clock ;
 }
 
+.intro { color:black;
+  background: default;
+  capitons: uppercase;
+  
+}
 
 h2 { text: red
   text-align:center
