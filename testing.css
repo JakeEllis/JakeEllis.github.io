@@ -12,35 +12,13 @@ color: white;
   padding-left: 11px;
   
 }
-  
-a {color:white;
-text-decoration:none;}
 
 #weaponh_img {position: left ;
 width:300px;
 height:300px;}
 
-
-b 
-  {color: red;
-background: black;
-align: center;
-margin: 40px;
-}
-
-
-
-
-p {color: green;
-background-color:orange; 
-font-size:22pt;
-margin: 2pt,2pt,2pt,2pt;
-text-align:center ;
-capitons: uppercase ;
-}
-
 .intro { color:black;
-  background: default;
+  background-color: default;
   capitons: uppercase;
   
 }
