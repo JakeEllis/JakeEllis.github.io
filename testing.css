@@ -2,6 +2,7 @@ div {
 font: Bauhaus;
 text-align: right;
 background-color: purple;
+  background: purple ;
 color: white;
   padding: 10px 10px 10px 5px;
   padding-inline-end: 5px;
