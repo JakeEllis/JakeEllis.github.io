@@ -17,15 +17,15 @@ a {color:white;
 text-decoration:none;}
 
 #weaponh_img {position: left ;
-width:300 ;
-height:300;}
+width:300px;
+height:300px;}
 
 
 b 
   {color: red;
 background: black;
 align: center;
-margin: 40
+margin: 40px;
 }
 
 
@@ -45,10 +45,7 @@ capitons: uppercase ;
   
 }
 
-h2 { text: red
-  text-align:center
-  
-}
+
 
 
 
