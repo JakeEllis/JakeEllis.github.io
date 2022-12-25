@@ -13,7 +13,9 @@ color: white;
 a {color:white;
 text-decoration:none;}
 
-#weaponh_img {position: left ; }
+#weaponh_img {position: left ;
+width:300 ;
+height:300;}
 
 
 b 
@@ -27,12 +29,11 @@ margin: 40
 
 
 p {color: green;
-background-color: orange; 
-font-size:22 pt;
+background-color:orange; 
+font-size:22pt;
 margin: 2pt,2pt,2pt,2pt;
 text-align:center ;
-capitons: uppercase ;  
-  margin: like a clock ;
+capitons: uppercase ;
 }
 
 .intro { color:black;
