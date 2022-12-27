@@ -11,6 +11,8 @@ color: white;
   word-spacing: 14%;
   padding-left: 11px;
   text-decoration: none;
+  box-sizing: border-box;
+  width: 620px
   
 }
 
