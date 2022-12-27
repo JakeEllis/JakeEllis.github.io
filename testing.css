@@ -4,12 +4,9 @@
 .page-header { 
 font: Bauhaus;
 text-align: center;
-background-color: purple;
+background: purple;
 color: white;
-  padding: 10px 10px 10px 5px;
-  padding-inline-end: 5px;
-  word-spacing: 14%;
-  padding-left: 11px;
+  word-spacing: 3cm;
   box-sizing: border-box;
   width: 620px;
   
