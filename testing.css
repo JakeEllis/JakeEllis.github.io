@@ -2,9 +2,9 @@
 //
 
 .page-header { 
-font: Bauhaus;
+font-family: Serif;
 text-align: right;
-background: purple;
+background: rgb (48, 25, 52);
 color: white;
 word-spacing: 3cm;
 box-sizing: border-box;
@@ -20,6 +20,8 @@ a {text-decoration: none;}
 width:300px;
 height:500px;
 }
+
+Library_SS {}
 
 .intro { color:black;
   background-color: default;
