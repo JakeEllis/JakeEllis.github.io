@@ -21,7 +21,9 @@ width:300px;
 height:500px;
 }
 
-Library_SS {}
+Library_SS {padding-block: 95px;
+background-color: black; 
+}
 
 .intro { color:black;
   background-color: default;
