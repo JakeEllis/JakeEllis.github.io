@@ -14,7 +14,10 @@ width: 620px;
 
 a {text-decoration: none;}
 
-.Reviews_p {text-align: center;}
+.Reviews_p {text-align: center;
+background-color: 	#5A5A5A;
+text: #FFC000,;  
+  }
 
 #weaponh_img {position: left ;
 width:300px;
