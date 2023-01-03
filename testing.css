@@ -16,7 +16,7 @@ a {text-decoration: none;}
 
 .Reviews_p {text-align: center;
 background-color: 	#5A5A5A;
-text: #FFC000;  
+text: rgb (255,255,0);  
   }
 
 #weaponh_img {position: left ;
@@ -28,7 +28,7 @@ Library_SS {
 background-color: #FFFF00; 
 }
 
-.intro { color:black;
+.intro { color: black;
   background-color: default;
   capitons: uppercase;
   
