@@ -14,6 +14,11 @@ width: 620px;
 
 a {text-decoration: none;}
 
+div {background-color:#301934;
+  padding-block: 12px;
+  text-align: right;
+}
+
 .Reviews_p {text-align: center;
 background-color: 	#5A5A5A;
 text: rgb (255,255,0);  
