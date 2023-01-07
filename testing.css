@@ -38,7 +38,9 @@ background-color: #FFFF00;
 .intro { color: black;
   background-color: default;
   capitons: uppercase;
-  
+  position: absolute;
+  left: 50px;
+  top: 50px;  
 }
 
 
