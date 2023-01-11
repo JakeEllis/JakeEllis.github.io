@@ -40,7 +40,8 @@ color: #FA0000;
 }
 
 .LibraryExplain {color:#720580;
-background-color:#00FBFF ;}
+background-color:#00FBFF ;
+text-transform: lowercase;}
 
 
 .intro { color: black;
