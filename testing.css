@@ -50,9 +50,10 @@ padding: 15%;
   background-color: default;
   capitons: uppercase;
   position: absolute;
-  right: 15px;
+  right: 0;
   top: 50px; 
   border: #FF0000;
+  
 }
 
 
