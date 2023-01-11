@@ -41,7 +41,9 @@ color: #FA0000;
 
 .LibraryExplain {color:#720580;
 background-color:#00FBFF ;
-text-align: center;}
+text-align: center;
+padding: 15%;
+}
 
 
 .intro { color: black;
