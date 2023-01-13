@@ -37,13 +37,15 @@ height:500px;
 .Library_SS {
 background-color: #FFA200;
 color: #FA0000; 
- text-align: center; 
+ text-align: center;
+  margin:10px 0px 0px 15px;
 }
 
 .LibraryExplain {color:#720580;
 background-color:#00FBFF ;
 text-align: center;
 padding: 15%;
+margin:0px 0px 0px 15px;
 }
 
 
