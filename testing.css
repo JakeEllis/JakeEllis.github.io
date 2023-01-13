@@ -52,7 +52,8 @@ margin:0px 0px 0px 15px;
 .intro { color: black;
   background-color: default;
   position: absolute;
-  right: 100px;
+  right: 0px;
+  width:100px;
  border: #FF0000;
   
 }
