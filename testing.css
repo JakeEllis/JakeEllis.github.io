@@ -38,13 +38,14 @@ height:500px;
 background-color: #FFA200;
 color: #FA0000; 
 text-align: center;
+padding : 20%;  
 margin:10px 0px 0px 15px;
 }
 
 .LibraryExplain {color:#720580;
 background-color:#00FBFF ;
 text-align: center;
-padding: 15%;
+padding: 20%;
 margin:0px 0px 0px 15px;
 }
 
