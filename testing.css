@@ -12,7 +12,8 @@ width: 620px;
   
 }
 
-a {text-decoration: none;}
+a {text-decoration: none;
+text: #FFFFFF;}
 
 div {background-color:#301934;
   padding-block: 8px;
