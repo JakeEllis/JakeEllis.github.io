@@ -49,6 +49,7 @@ padding: 15%;
 .intro { color: black;
   background-color: default;
   position: absolute;
+  top:20px ;
   right: 100px;
   width: 140px;
   height: 100px;
