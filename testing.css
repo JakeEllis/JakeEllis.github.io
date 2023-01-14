@@ -15,7 +15,7 @@ width: 620px;
 a {text-decoration: none;
 text: white;}
 
-div {background-color:#301934;
+div {background-color:#48107D;
   padding-block: 8px;
   text-align: right;
   color: white;
@@ -55,10 +55,8 @@ margin:0px 0px 0px 15px;
   background-color: default;
   position: absolute;
   right: 0px;
-  margin-top: -570px;
-  margin-bottom: 100px;
-  margin-right: 10px;
-  margin-left: 480px;
+  width: 1440px;
+height: 1024px;
  border: #FF0000;
 background-color:#C07CEE;  
 }
