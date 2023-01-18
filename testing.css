@@ -9,20 +9,9 @@ color: #FFFFFF;
 word-spacing: 3cm;
 box-sizing: border-box;
 width: 620px;
-  
+text-decoration: none;  
 }
 
-a {text-decoration: none;
-text: white;}
-
-div {background-color:#00FF08;
-  padding-block: 8px;
-  text-align: right;
-  color: white;
-  word-spacing: 2cm;
-  font-style: Avantgarde;
-  font-weight:500;
-}
 
 .Reviews_p {text-align: center;
 background-color: #3B3B3B;
