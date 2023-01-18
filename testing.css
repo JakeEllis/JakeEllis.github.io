@@ -20,6 +20,17 @@ padding : 20% ;
 margin:0px 0px 0px 15px;  
   }
 
+a {text-decoration: none;
+text: white;}
+
+div {background-color:#00FF08;
+  padding-block: 8px;
+  text-align: right;
+  color: white;
+  word-spacing: 2cm;
+  font-style: Avantgarde;
+  font-weight:500;
+}
 
 #hexagon_img {position: left ;
 width:400px;
