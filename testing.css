@@ -25,7 +25,8 @@ font-style: normal;
 font-weight: 40;
 font-size: 12px;
 line-height: 29px;
-word-spacing: 4cm;  
+word-spacing: 4cm; 
+text-align: right;  
 }
 
 .Reviews_p {text-align: center;
