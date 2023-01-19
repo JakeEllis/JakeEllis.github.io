@@ -24,7 +24,8 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 40;
 font-size: 12px;
-line-height: 29px;      
+line-height: 29px;
+word-spacing: 4cm;  
 }
 
 .Reviews_p {text-align: center;
