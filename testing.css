@@ -15,10 +15,16 @@ word-spacing: 4cm;
 
 
 .Main-Header {background: #01F4B7;
-color: #FFFFFF;
-text-align: right;  
-padding-top:16px;
-word-spacing: 4%;      
+position: absolute;
+width: 1043px;
+height: 29px;
+right: -249px;
+top: 23px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;      
 }
 
 .Reviews_p {text-align: center;
