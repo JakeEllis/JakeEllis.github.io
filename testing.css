@@ -15,9 +15,10 @@ word-spacing: 4%;
 
 
 .Main-Header {background: #01F4B7;
-color: white;
+color: #FFFFFF;
 text-align: right;  
-padding-top:16px
+padding-top:16px;
+word-spacing: 4%;      
 }
 
 .Reviews_p {text-align: center;
