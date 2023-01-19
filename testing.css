@@ -62,16 +62,13 @@ margin:0px 0px 0px 15px;
 }
 
 
-.intro { color: black;
-  background-color: default;
-  position: absolute;
-  right: 0px;
-  margin-top: -570px;
-  margin-bottom: 175px;
-  margin-right: 10.5px;
-  margin-left: 550px;
- border: #FF0000;
-background-color:#C07CEE;  
+.intro { position: absolute;
+width: 770px;
+height: 937px;
+left: 646px;
+top: 66px;
+
+background: #B76DFD;
 }
 
 
