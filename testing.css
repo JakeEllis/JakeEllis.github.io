@@ -68,7 +68,7 @@ margin:0px 0px 0px 15px;
 }
 
 
-.intro { position: absolute;
+.intro { position: relative;
 width: 770px;
 height: 937px;
 left: 646px;
