@@ -15,6 +15,7 @@ word-spacing: 4cm;
 
 
 .Main-Header {position: absolute;
+background-color:black;  
 width: 1043px;
 height: 29px;
 right: 20px;
