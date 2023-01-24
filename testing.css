@@ -1,18 +1,6 @@
 // this is a comment
 //
 
-.page-header { 
-font-family: Serif;
-text-align: right;
-background-color: rgb (48, 25, 52);
-color: #FFFFFF;
-word-spacing: 3cm;
-box-sizing: border-box;
-width: 620px;
-text-decoration: none;
-word-spacing: 4cm;  
-}
-
 
 .Main-Header {position: absolute;
 background-color:black;  
