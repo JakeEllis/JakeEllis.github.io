@@ -14,19 +14,17 @@ word-spacing: 4cm;
 }
 
 
-.Main-Header {position: absolute;
-background-color:black;  
-width: 943px;
-height: 29px;
-right: 12px;
-top: 2px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 40;
-font-size: 12px;
-line-height: 29px;
-word-spacing: 3cm; 
-text-align: right;  
+.Main-Header {
+  position: absolute;
+  background-color:black;  
+  height: 29px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 40;
+  font-size: 12px;
+  line-height: 29px;
+  word-spacing: 3cm; 
+  text-align: right;  
 }
 
 .Reviews_p {text-align: center;
@@ -49,13 +47,14 @@ color: #ffffff;
   font-weight:500;
 }
 
-#hexagon_img {position:left;
-width:50%;
-height:400px;
+#hexagon_img {
+  position:relative;
+  width:50%;
+  height:400px;
 }
 
 .intro { 
-position:right;
+position:relative;
 width: 50%;
 height: 400px;
 background-color: #B76DFD;
