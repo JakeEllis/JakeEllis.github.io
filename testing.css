@@ -49,16 +49,23 @@ color: #ffffff;
   font-weight:500;
 }
 
-#hexagon_img {position: left ;
-width:400px;
-height:500px;
+#hexagon_img {position:left;
+width:50%;
+height:400px;
+}
+
+.intro { 
+position:right;
+width: 50%;
+height: 400px;
+background-color: #B76DFD;
 }
 
 .Library_SS {
 background-color: #FFA200;
 color: #FA0000; 
 text-align: center;
-padding : 10px;  
+padding: 10px;  
 margin:10px 0px 0px 15px;
 }
 
@@ -69,14 +76,6 @@ padding: 20%;
 margin:0px 0px 0px 15px;
 }
 
-
-.intro { position: relative;
-width: 770px;
-height: 405px;
-left: 560px;
-top: -535px;
-background-color: #B76DFD;
-}
 
 
 
