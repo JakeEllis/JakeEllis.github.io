@@ -38,15 +38,6 @@ a {text-decoration: none;
 color: #ffffff;
 }
 
-.div {background-color:#00FF08;
-  padding-block: 8px;
-  text-align: right;
-  color: white;
-  word-spacing: 2cm;
-  font-style: Avantgarde;
-  font-weight:500;
-}
-
 #hexagon_img {
   position:relative;
   width:50%;
