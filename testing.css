@@ -39,14 +39,14 @@ color: #ffffff;
 }
 
 #hexagon_img {
-  position:relative;
-  width:50%;
+  float: left;
+  width:49%;
   height:400px;
 }
 
 .intro { 
-position:relative;
-width: 50%;
+float:right;
+width: 49%;
 height: 400px;
 background-color: #B76DFD;
 }
