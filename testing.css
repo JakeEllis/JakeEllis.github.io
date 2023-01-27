@@ -16,14 +16,10 @@ word-spacing: 4cm;
 
 .Main-Header {
   background-color:black;  
-  height: 29px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 40;
-  font-size: 12px;
+  height: 40px;
   line-height: 29px;
   word-spacing: 3cm; 
-  text-align: right; 
+  text-align: center; 
 }
 
 .Reviews_p {text-align: center;
