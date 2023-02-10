@@ -40,6 +40,7 @@ color: #ffffff;
 
 .intro { 
 float:right;
+left: 45%;  
 width: 49%;
 height: 400px;
 background-color: #B76DFD;
