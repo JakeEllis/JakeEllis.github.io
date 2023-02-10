@@ -39,11 +39,9 @@ color: #ffffff;
 }
 
 .intro { 
-float:right;
-left: 45%;  
-width: 49%;
+float:right;  
+width: 38%;
 height: 400px;
-padding:3%;
 background-color: #B76DFD;
 }
 
