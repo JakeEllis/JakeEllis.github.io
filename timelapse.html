@@ -1,21 +1,5 @@
 <script>
 
-  router.post('/images', function(req, res, next) {
-    var image = bucket.file(req.body.image);
-    image.download(function(err, contents) {
-        if (err) {
-            console.log(err);
-        } else {
-            var resultImage = base64_encode(contents);
-            var index = req.body.index;
-            var returnObject = {
-                image: resultImage,
-                index: index
-            }
-            res.send(returnObject);
-        }
-    });
-});
   
 </script>
 <body>
