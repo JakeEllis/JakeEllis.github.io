@@ -12,7 +12,7 @@
             <h2 id="month"></h2>
             <h2 id="day"></h2>
       
-            <h2 id="videoName"></h2>
+            <h2 id="videoName">Video Name</h2>
 
 
             <!-- follow this link to change the permissions of the videos folder -->
@@ -42,11 +42,10 @@
             document.getElementById("year").innerHTML=year;
             
             async function readFiles () {
-              const [files] = await bucket.getFiles({ prefix: 'users/user42'});
+              const [files] = await bucket.getFiles({ prefix: 'gs://date-night-qa.appspot.com/parking_lot_timelapse/videos'});
               console.log('Files:');
               files.forEach(file => {
-                console.log(file.name);
-                    document.getElementById("videoName").innerHTML=videoSrcUrl;
+                document.getElementById("videoName").innerHTML=videoSrcUrl;
               });
             };
 
