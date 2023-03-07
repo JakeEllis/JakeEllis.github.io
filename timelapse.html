@@ -1,6 +1,6 @@
 <script>
-
-  
+      let videoSrcUrl = "URL HERE"
+      document.getElementById("video").src=videoSrcUrl;
 </script>
 <body>
 
@@ -17,9 +17,9 @@
   <!-- https://cloud.google.com/storage/docs/access-control/making-data-public -->
   <!-- https://www.aloudinthecloud.com/how-to-serve-website-images-from-google-cloud.html -->
   
-  <object data="https://storage.googleapis.com/date-night-qa.appspot.com/parking_lot_timelapse/videos/0305_121502_MP4_Test.mp4" width="600" height="600"> 
-    <param name="src" value="https://storage.googleapis.com/date-night-qa.appspot.com/parking_lot_timelapse/videos/0305_121502_MP4_Test.mp4" /> 
-    <embed type="video/mp4" src="https://storage.googleapis.com/date-night-qa.appspot.com/parking_lot_timelapse/videos/0305_121502_MP4_Test.mp4" width="600" height="600"></embed> 
+  <object id="video" data="https://storage.googleapis.com/date-night-qa.appspot.com/parking_lot_timelapse/videos/0305_121502_MP4_Test.mp4" width="600" height="600"> 
+    <param id="video" name="src" value="https://storage.googleapis.com/date-night-qa.appspot.com/parking_lot_timelapse/videos/0305_121502_MP4_Test.mp4" /> 
+    <embed id="video" type="video/mp4" src="https://storage.googleapis.com/date-night-qa.appspot.com/parking_lot_timelapse/videos/0305_121502_MP4_Test.mp4" width="600" height="600"></embed> 
   </object>
   
   
