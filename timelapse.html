@@ -6,13 +6,14 @@
 <body>
 
       <p>
-            <h3>Testing Timelapse Videos from GCP</h3>
+            <h3>Testing Timelapse Videos from GCP - test</h3>
 
             <h2 id="year"></h2>
             <h2 id="month"></h2>
             <h2 id="day"></h2>
       
-            <h2 id="videoName">Video Name</h2>
+            <h2 id="videoName1">Video Name1</h2>
+      <h2 id="videoName2">Video Name2</h2>
 
 
             <!-- follow this link to change the permissions of the videos folder -->
@@ -41,18 +42,24 @@
             document.getElementById("month").innerHTML=month;
             document.getElementById("year").innerHTML=year;
             
+              // Imports the Google Cloud client library
+            const {Storage} = require('@google-cloud/storage');
+
+            // Creates a client
+            const storage = new Storage();
+            
             async function readFiles () {
-              const [files] = await bucket.getFiles({ prefix: 'gs://date-night-qa.appspot.com/parking_lot_timelapse/videos'});
+              const [files] = await bucket.getFiles({ prefix: 'date-night-qa.appspot.com/parking_lot_timelapse/videos'});
               console.log('Files:');
               files.forEach(file => {
-                document.getElementById("videoName").innerHTML=videoSrcUrl;
+                document.getElementById("videoName1").innerHTML=videoSrcUrl;
               });
             };
             
-           admin.storage().bucket()
-          .getFiles({ prefix: 'gs://date-night-qa.appspot.com/parking_lot_timelapse/videos/', autoPaginate: false })
+          admin.storage().bucket()
+          .getFiles({ prefix: 'date-night-qa.appspot.com/parking_lot_timelapse/videos/', autoPaginate: false })
           .then((files) => {
-            console.log(files);
+            document.getElementById("videoName2").innerHTML=videoSrcUrl;
           });
 
             let videoSrcUrl = "URL HERE"
