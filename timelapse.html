@@ -48,6 +48,12 @@
                 document.getElementById("videoName").innerHTML=videoSrcUrl;
               });
             };
+            
+           admin.storage().bucket()
+          .getFiles({ prefix: 'gs://date-night-qa.appspot.com/parking_lot_timelapse/videos/', autoPaginate: false })
+          .then((files) => {
+            console.log(files);
+          });
 
             let videoSrcUrl = "URL HERE"
             document.getElementById("videoUrl").src=videoSrcUrl;
