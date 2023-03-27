@@ -23,12 +23,12 @@ async function streamFileDownload() {
   // pipe its contents to a local file.
   // Once the stream is created, the data can be piped anywhere (process, sdout, etc)
   await storage
-    .bucket(bucketName)
-    .file(fileName)
+    .bucket("date-night-qa.appspot.com/parking_lot_timelapse/videos/")
+    .file("20230326_155701.MP4")
     .createReadStream() //stream is created
     .pipe(fs.createWriteStream(destFileName))
     .on('finish', () => {
-      // The file download is complete
+      document.getElementById("videoName1").innerHTML=videoSrcUrl;
     });
 
   console.log(
@@ -45,21 +45,17 @@ streamFileDownload().catch(console.error);
 
 
 
-<!--
-  // Imports the Google Cloud client library
-const {Storage} = require('@google-cloud/storage');
-
-// Creates a client
-const storage = new Storage();
 
 async function readFiles () {
-  const [files] = await bucket.getFiles({ prefix: 'date-night-qa.appspot.com/parking_lot_timelapse/videos'});
+  const [files] = await bucket.getFiles({ prefix: 'date-night-qa.appspot.com/parking_lot_timelapse/videos/'});
   console.log('Files:');
   files.forEach(file => {
-    document.getElementById("videoName1").innerHTML=videoSrcUrl;
+    console.log(file);
+    document.getElementById("videoName2").innerHTML="file2 ran";
   });
 };
 
+/*
 admin.storage().bucket()
 .getFiles({ prefix: 'date-night-qa.appspot.com/parking_lot_timelapse/videos/', autoPaginate: false })
 .then((files) => {
@@ -68,4 +64,5 @@ document.getElementById("videoName2").innerHTML=videoSrcUrl;
 
 let videoSrcUrl = "URL HERE"
 document.getElementById("videoUrl").src=videoSrcUrl;
--->
+*/
+
