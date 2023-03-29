@@ -13,7 +13,10 @@ document.getElementById("year").innerHTML=year;
 
 
 
-const {Storage} = require('@google-cloud/storage');
+//const {Storage} = require('@google-cloud/storage');
+
+import * as storageModule from "@google-cloud/storage";
+const { Storage } = storageModule;
 
 // Creates a client
 const storage = new Storage();
