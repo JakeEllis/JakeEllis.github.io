@@ -5,7 +5,8 @@
       
       <script>
             function refresh() {
-               window.location.reload();
+               window.parent.location = window.parent.location.href
+               history.go(0);
             }
       </script>
 </head>
